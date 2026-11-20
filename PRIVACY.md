@@ -15,11 +15,13 @@ When you start a download, or click the download button on a video, the extensio
 
 When you choose "Grab links with AlwyIDM", it also passes the links found on that page.
 
-All of this goes from your browser to the app on the same computer through Chrome's native messaging. None of it is sent to us or to any other server. The app uses it only to download the file you asked for. Cookies are kept in memory for that download and are never written to disk.
+To offer videos for download, the extension watches the browser's network requests for video and audio streams, and it notices clicks on download links so it can hand them to the app.
 
-## What we collect
+## Where that data goes
 
-Nothing. AlwyIDM has no accounts, analytics, tracking or ads, and the extension makes no network requests of its own.
+All of this goes from your browser to the app on the same computer through Chrome's native messaging. It never leaves your computer and is not sent to us or to any other server. The app uses it only to download the file you asked for. Cookies are kept in memory for that download and are never written to disk.
+
+We don't sell or share this data, don't use it for anything other than downloading, and don't use it for advertising, credit or lending decisions. AlwyIDM has no accounts, analytics, tracking or ads, and the extension makes no network requests of its own.
 
 ## Settings
 
