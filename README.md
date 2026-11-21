@@ -19,6 +19,7 @@ A download manager for Windows. It splits files across many connections, resumes
 - Lets you look inside a ZIP before downloading it and pick only the files you need
 - Checks the file against the checksum when the site publishes one
 - Records live streams, grabs all links from a page, and takes links from your phone over Wi-Fi
+- Can start with Windows and wait in the notification area by the clock; closing the window keeps downloads running
 - Scheduler, speed limits and an English or Arabic interface
 
 ![Download window](screenshots/progress.png)
@@ -30,6 +31,8 @@ A download manager for Windows. It splits files across many connections, resumes
 1. Download `AlwyIDM-<version>-Setup.exe` from the [latest release](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest) and run it.
 2. Windows may show "Windows protected your PC" because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
 3. AlwyIDM opens when setup finishes. It connects to your browser on its own.
+
+To update later, quit AlwyIDM first: right-click its icon by the clock and choose **Quit AlwyIDM**.
 
 If you'd rather not install anything, use the `win-x64.zip` file from the [releases page](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest) and run `AlwyIDM.exe`.
 
@@ -51,7 +54,7 @@ You can also open the folder from the app with **Browser extension** in the side
 
 ### Torrents
 
-Paste a magnet link into **New download**, or use **Open a .torrent file**. To have magnet links and .torrent files open in AlwyIDM when you click them, turn on **Open magnet links and .torrent files with AlwyIDM** in Settings. Windows may ask you to allow AlwyIDM through the firewall the first time a torrent starts; allow it so other peers can connect.
+Paste a magnet link into **New download**, or use **Open a .torrent file**. Torrents are saved to `Downloads\Torrents` (you can pick another folder before starting). To have magnet links and .torrent files open in AlwyIDM when you click them, turn on **Open magnet links and .torrent files with AlwyIDM** in Settings. Windows may ask you to allow AlwyIDM through the firewall the first time a torrent starts; allow it so other peers can connect.
 
 ## Requirements
 
