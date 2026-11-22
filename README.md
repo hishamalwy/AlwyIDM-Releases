@@ -12,7 +12,7 @@ A download manager for Windows. It splits files across many connections, resumes
 - Spreads connections across all of a site's servers and reopens any connection that slows down
 - Writes straight into the final file, so there's no joining step at the end
 - Pause and resume, even after a restart
-- Browser extension for Chrome, Edge, Brave and Firefox, with a download button on videos
+- [Browser extension](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk) for Chrome, Edge and Brave (and Firefox), with a download button on videos
 - Speed graph and per-connection speed while downloading
 - Converts video and audio (MP4, HEVC, MP3, M4A, FLAC, WAV) without extra software
 - Downloads torrents and magnet links: pick the files you want, pause and resume, and choose whether to keep sharing afterwards
@@ -38,19 +38,13 @@ If you'd rather not install anything, use the `win-x64.zip` file from the [relea
 
 ### Browser extension
 
-Chrome, Edge or Brave: go to `chrome://extensions`, turn on Developer mode, click **Load unpacked** and pick:
+**Chrome, Edge or Brave:** [add AlwyIDM from the Chrome Web Store](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk). Install the app first; the extension connects to it on its own.
 
-```
-%LocalAppData%\Programs\AlwyIDM\chrome-extension
-```
-
-Firefox: go to `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on** and pick `manifest.json` in:
+**Firefox:** go to `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on** and pick `manifest.json` in:
 
 ```
 %LocalAppData%\Programs\AlwyIDM\firefox-extension
 ```
-
-You can also open the folder from the app with **Browser extension** in the sidebar.
 
 ### Torrents
 
