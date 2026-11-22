@@ -38,7 +38,7 @@ If you'd rather not install anything, use the `win-x64.zip` file from the [relea
 
 ### Browser extension
 
-**Chrome, Edge or Brave:** [add AlwyIDM from the Chrome Web Store](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk). Install the app first; the extension connects to it on its own.
+**Chrome, Edge or Brave:** [add AlwyIDM from the Chrome Web Store](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk). Install the app first; the extension connects to it on its own. After installing AlwyIDM, your browser usually offers to turn the extension on the next time it starts, and **Browser extension** in the app's sidebar opens the store page.
 
 **Firefox:** go to `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on** and pick `manifest.json` in:
 
