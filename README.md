@@ -1,10 +1,23 @@
 # AlwyIDM
 
-A download manager for Windows. It splits files across many connections, resumes where it left off, catches downloads from your browser, and handles torrents.
+A Windows download manager with pause and resume, browser integration, and torrent support. English and Arabic interfaces are available.
 
-[Download AlwyIDM for Windows](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest) (66 MB)
+**[Download the latest Windows release](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest)** · [Browser extension](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk) · [Report a problem](https://github.com/hishamalwy/AlwyIDM-Releases/issues)
 
-![AlwyIDM](screenshots/main-en.png)
+**Requirements:** Windows 10 version 2004 or later, or Windows 11, 64-bit.
+
+> **Before you install:** AlwyIDM is not digitally signed. Windows may display a security warning. A download hosted on GitHub is not a guarantee of safety. Review the release notes and decide whether you trust the application before running it. Do not disable Windows security protections to try it.
+
+![AlwyIDM main window](screenshots/main-en.png)
+
+## Start here
+
+1. Open the [latest release](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest).
+2. Choose the installer, `AlwyIDM-<version>-Setup.exe`, or the portable archive, `AlwyIDM-<version>-win-x64.zip`.
+3. If using the portable archive, extract it before opening `AlwyIDM.exe`. If using the installer, review any Windows security warning before deciding whether to run it.
+4. Add a download link in the app. For browser capture, see [Browser extension](#browser-extension).
+
+**Updating?** Quit AlwyIDM first: right-click its notification-area icon and choose **Quit AlwyIDM**. Closing the main window alone keeps downloads running.
 
 ## Features
 
@@ -26,16 +39,6 @@ A download manager for Windows. It splits files across many connections, resumes
 
 ![Torrent](screenshots/torrent.png)
 
-## Install
-
-1. Download `AlwyIDM-<version>-Setup.exe` from the [latest release](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest) and run it.
-2. Windows may show "Windows protected your PC" because the app isn't code-signed yet. Click **More info**, then **Run anyway**.
-3. AlwyIDM opens when setup finishes. It connects to your browser on its own.
-
-To update later, quit AlwyIDM first: right-click its icon by the clock and choose **Quit AlwyIDM**.
-
-If you'd rather not install anything, use the `win-x64.zip` file from the [releases page](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest) and run `AlwyIDM.exe`.
-
 ### Browser extension
 
 **Chrome, Edge or Brave:** [add AlwyIDM from the Chrome Web Store](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk). Install the app first; the extension connects to it on its own. After installing AlwyIDM, your browser usually offers to turn the extension on the next time it starts, and **Browser extension** in the app's sidebar opens the store page.
@@ -48,10 +51,22 @@ If you'd rather not install anything, use the `win-x64.zip` file from the [relea
 
 ### Torrents
 
-Paste a magnet link into **New download**, or use **Open a .torrent file**. Torrents are saved to `Downloads\Torrents` (you can pick another folder before starting). To have magnet links and .torrent files open in AlwyIDM when you click them, turn on **Open magnet links and .torrent files with AlwyIDM** in Settings. Windows may ask you to allow AlwyIDM through the firewall the first time a torrent starts; allow it so other peers can connect.
-
-## Requirements
-
-Windows 10 version 2004 or later, or Windows 11 (64-bit).
+Paste a magnet link into **New download**, or use **Open a .torrent file**. Torrents are saved to `Downloads\Torrents` (you can pick another folder before starting). To have magnet links and .torrent files open in AlwyIDM when you click them, turn on **Open magnet links and .torrent files with AlwyIDM** in Settings. Windows may ask you to allow AlwyIDM through the firewall the first time a torrent starts; review the prompt and allow network access only if you intend to use peer-to-peer transfers and trust the app.
 
 ![Convert](screenshots/convert.png)
+
+## Help test AlwyIDM
+
+If you try it, report what worked and what failed in [Issues](https://github.com/hishamalwy/AlwyIDM-Releases/issues). Useful details:
+
+- App version and Windows version.
+- What you tried, what you expected, and what happened.
+- Steps to reproduce the problem.
+- Browser and extension version, if browser capture is involved.
+- A screenshot or error message, with private information removed.
+
+Do not include passwords, cookies, access tokens, private download links, or personal files. Use a public test file when reporting download problems. Only download or share content you have permission to access.
+
+## About this repository
+
+This repository distributes AlwyIDM releases, screenshots, and documentation. See [releases](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest) for the current version and changes, and [PRIVACY.md](PRIVACY.md) for the privacy information.
