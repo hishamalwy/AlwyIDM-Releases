@@ -2,7 +2,7 @@
 
 A Windows download manager with pause and resume, browser integration, and torrent support. English and Arabic interfaces are available.
 
-**[Download the latest Windows release](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest)** · [Browser extension](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk) · [Report a problem](https://github.com/hishamalwy/AlwyIDM-Releases/issues)
+**[Download the latest Windows release](https://github.com/hishamalwy/AlwyIDM-Releases/releases/latest)** · [Browser extension](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk?utm_source=github&utm_medium=readme&utm_campaign=alwyidm_organic) · [Report a problem](https://github.com/hishamalwy/AlwyIDM-Releases/issues)
 
 **Requirements:** Windows 10 version 2004 or later, or Windows 11, 64-bit.
 
@@ -25,7 +25,7 @@ A Windows download manager with pause and resume, browser integration, and torre
 - Spreads connections across all of a site's servers and reopens any connection that slows down
 - Writes straight into the final file, so there's no joining step at the end
 - Pause and resume, even after a restart
-- [Browser extension](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk) for Chrome, Edge and Brave (and Firefox), with a download button on videos
+- [Browser extension](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk?utm_source=github&utm_medium=readme&utm_campaign=alwyidm_organic) for Chrome, Edge and Brave (and Firefox), with a download button on videos
 - Speed graph and per-connection speed while downloading
 - Converts video and audio (MP4, HEVC, MP3, M4A, FLAC, WAV) without extra software
 - Downloads torrents and magnet links: pick the files you want, pause and resume, and choose whether to keep sharing afterwards
@@ -41,7 +41,7 @@ A Windows download manager with pause and resume, browser integration, and torre
 
 ### Browser extension
 
-**Chrome, Edge or Brave:** [add AlwyIDM from the Chrome Web Store](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk). Install the app first; the extension connects to it on its own. After installing AlwyIDM, your browser usually offers to turn the extension on the next time it starts, and **Browser extension** in the app's sidebar opens the store page.
+**Chrome, Edge or Brave:** [add AlwyIDM from the Chrome Web Store](https://chromewebstore.google.com/detail/dbhagodffkcnbhalidkgnanifhbpakkk?utm_source=github&utm_medium=readme&utm_campaign=alwyidm_organic). Install the app first; the extension connects to it on its own. After installing AlwyIDM, your browser usually offers to turn the extension on the next time it starts, and **Browser extension** in the app's sidebar opens the store page.
 
 **Firefox:** go to `about:debugging#/runtime/this-firefox`, click **Load Temporary Add-on** and pick `manifest.json` in:
 
